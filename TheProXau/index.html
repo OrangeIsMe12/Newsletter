@@ -416,8 +416,7 @@
         }
         /* SMALL CARDS */
         
-        .card-small {
-            cursor: pointer;
+        .card-small { cursor: pointer;
             background: #090908;
             padding: 32px 28px;
             text-decoration: none;
@@ -671,7 +670,7 @@
         <div class="cards-grid">
 
             <!-- ÉDITION 1 — FEATURED -->
-            <a class="card-featured" href="edition01/edition-01.html">
+            <a class="card-featured" href="edition01/edition-02.html">
                 <div class="card-top">
                     <div class="card-edition-num">ÉDITION #001</div>
                     <div class="badge badge-new">Dernière édition</div>
@@ -715,7 +714,80 @@
         </div>
     </section>
 
+
     <div class="gold-divider"></div>
+
+    <!-- ABONNEMENT -->
+    <section style="max-width:860px; margin:0 auto; padding:80px 24px;">
+
+      <!-- Header -->
+      <div style="text-align:center; margin-bottom:56px;">
+        <div style="font-family:'DM Mono',monospace; font-size:9px; letter-spacing:5px; color:var(--gold); text-transform:uppercase; opacity:0.7; margin-bottom:16px;">Accès complet</div>
+        <h2 style="font-family:'Playfair Display',serif; font-size:clamp(32px,5vw,52px); font-weight:900; line-height:1.1; letter-spacing:-1px; margin-bottom:16px;">
+          <span style="color:var(--gold);">Tout l'archive.</span><br>
+          <span style="color:var(--text);">Toutes les semaines.</span>
+        </h2>
+        <p style="font-family:'DM Sans',sans-serif; font-size:14px; color:var(--text-dim); max-width:480px; margin:0 auto; line-height:1.7;">Accédez à toutes les éditions passées et futures — analyse macro, setups, technique et breaking news chaque semaine.</p>
+      </div>
+
+      <!-- Pricing Card -->
+      <div style="max-width:480px; margin:0 auto; border:1px solid var(--gold-dim); background:linear-gradient(135deg,#0f0d06,#080804); padding:40px 36px; position:relative;">
+
+        <!-- Badge -->
+        <div style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); background:var(--gold); font-family:'DM Mono',monospace; font-size:9px; font-weight:700; letter-spacing:3px; color:#080804; padding:4px 16px; text-transform:uppercase; white-space:nowrap;">Accès Abonné</div>
+
+        <!-- Price -->
+        <div style="text-align:center; margin-bottom:32px; padding-top:8px;">
+          <div style="display:flex; align-items:flex-start; justify-content:center; gap:4px;">
+            <span style="font-family:'DM Mono',monospace; font-size:16px; color:var(--gold); margin-top:8px;">$</span>
+            <span style="font-family:'Playfair Display',serif; font-size:64px; font-weight:900; color:var(--gold); line-height:1; letter-spacing:-2px;">9.99</span>
+            <span style="font-family:'DM Mono',monospace; font-size:12px; color:var(--text-dim); align-self:flex-end; margin-bottom:8px;">/mois</span>
+          </div>
+          <div style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; color:var(--text-muted); text-transform:uppercase; margin-top:4px;">Annulable à tout moment</div>
+        </div>
+
+        <!-- Features -->
+        <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:36px;">
+
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:var(--gold); font-size:12px; flex-shrink:0;">◆</span>
+            <span style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--text);">Accès à <strong style="color:var(--gold);">toutes les éditions</strong> passées et futures</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:var(--gold); font-size:12px; flex-shrink:0;">◆</span>
+            <span style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--text);">Analyse macro hebdo — <strong style="color:var(--gold);">XAUUSD · XAGUSD</strong></span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:var(--gold); font-size:12px; flex-shrink:0;">◆</span>
+            <span style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--text);">Setups technique + scénarios bullish & bearish</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:var(--gold); font-size:12px; flex-shrink:0;">◆</span>
+            <span style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--text);">Breaking news & agenda macro de la semaine</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:var(--gold); font-size:12px; flex-shrink:0;">◆</span>
+            <span style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--text);">Concept éducatif + veille X chaque édition</span>
+          </div>
+
+        </div>
+
+        <!-- CTA Button — remplace le href par ton lien Stripe -->
+        <a href="COLLE_TON_LIEN_STRIPE_ICI" style="display:block; text-align:center; background:var(--gold); color:#080804; font-family:'DM Mono',monospace; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; padding:18px 24px; text-decoration:none; transition:all 0.3s;" onmouseover="this.style.background='#e2c97e'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#c9a84c'; this.style.transform='translateY(0)'">
+          S'abonner maintenant →
+        </a>
+
+        <!-- Secure mention -->
+        <div style="text-align:center; margin-top:14px; font-family:'DM Mono',monospace; font-size:9px; letter-spacing:2px; color:var(--text-muted); text-transform:uppercase;">
+          🔒 Paiement sécurisé via Stripe
+        </div>
+
+      </div>
+
+      <!-- Free mention -->
+      <p style="text-align:center; font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; color:var(--text-muted); text-transform:uppercase; margin-top:24px;">Accès gratuit → Dernière édition uniquement</p>
+
+    </section>
 
     <!-- ABOUT -->
     <div class="about-section">
